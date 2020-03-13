@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+#  jpa:
+#    hibernate:
+#      ddl-auto: none
+#    show-sql: true
+logging:
+  level:
+    root: warn
+    com.yang: info
+  file: log/blog-pro.log
+

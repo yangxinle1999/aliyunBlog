@@ -1,0 +1,60 @@
+2020-03-04 15:45:11.355  INFO 6876 --- [restartedMain] com.yang.BlogApplication                 : Starting BlogApplication on PC-20171123LSPD with PID 6876 (C:\Users\Mypc\Desktop\blog\target\classes started by Mypc in C:\Users\Mypc\Desktop\blog)
+2020-03-04 15:45:11.456 DEBUG 6876 --- [restartedMain] com.yang.BlogApplication                 : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-03-04 15:45:11.463  INFO 6876 --- [restartedMain] com.yang.BlogApplication                 : The following profiles are active: dev
+2020-03-04 15:45:11.922  INFO 6876 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Mypc\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Mypc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Mypc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Mypc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Mypc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Mypc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Mypc/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-03-04 15:45:11.924  INFO 6876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-04 15:45:11.927  INFO 6876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-04 15:45:27.700  INFO 6876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-04 15:45:29.931  INFO 6876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2089ms. Found 5 JPA repository interfaces.
+2020-03-04 15:45:36.901  INFO 6876 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-04 15:45:47.093  INFO 6876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-04 15:45:47.188  INFO 6876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-04 15:45:47.191  INFO 6876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-03-04 15:45:50.913  INFO 6876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-04 15:45:51.365  INFO 6876 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 39432 ms
+2020-03-04 15:46:15.372  INFO 6876 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-04 15:46:16.442  INFO 6876 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2020-03-04 15:46:20.328  INFO 6876 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-04 15:46:23.539  INFO 6876 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-04 15:46:25.922  INFO 6876 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-04 15:46:27.183  INFO 6876 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-03-04 15:46:53.739  INFO 6876 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-04 15:46:53.818  INFO 6876 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-04 15:46:55.613  INFO 6876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-04 15:47:15.554  WARN 6876 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-04 15:47:18.691  INFO 6876 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-04 15:47:20.441  INFO 6876 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-04 15:47:38.832  INFO 6876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-04 15:47:39.122  INFO 6876 --- [restartedMain] com.yang.BlogApplication                 : Started BlogApplication in 154.95 seconds (JVM running for 172.281)
+2020-03-04 15:48:56.297  INFO 6876 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-04 15:48:56.302  INFO 6876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-04 15:48:56.424  INFO 6876 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 121 ms
+2020-03-04 15:48:56.791  INFO 6876 --- [http-nio-8080-exec-1] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: ASC], {}]}
+2020-03-04 15:48:59.062  WARN 6876 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-04 15:48:59.296  WARN 6876 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-03-04 15:48:59.323  INFO 6876 --- [http-nio-8080-exec-1] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:48:59.326  INFO 6876 --- [http-nio-8080-exec-1] com.yang.aspect.LogAspect                : result : index
+2020-03-04 15:51:24.098  INFO 6876 --- [http-nio-8080-exec-9] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: ASC], {}]}
+2020-03-04 15:51:24.149  INFO 6876 --- [http-nio-8080-exec-9] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:51:24.150  INFO 6876 --- [http-nio-8080-exec-9] com.yang.aspect.LogAspect                : result : index
+2020-03-04 15:51:27.691  INFO 6876 --- [http-nio-8080-exec-5] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.IndexController.blog', args=[15, {}]}
+2020-03-04 15:51:28.097  INFO 6876 --- [http-nio-8080-exec-5] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:51:28.098  INFO 6876 --- [http-nio-8080-exec-5] com.yang.aspect.LogAspect                : result : blog
+2020-03-04 15:51:29.508  INFO 6876 --- [http-nio-8080-exec-4] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/15', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.CommentController.comments', args=[15, {}]}
+2020-03-04 15:51:29.674  INFO 6876 --- [http-nio-8080-exec-4] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:51:29.675  INFO 6876 --- [http-nio-8080-exec-4] com.yang.aspect.LogAspect                : result : blog :: commentList
+2020-03-04 15:51:52.563  INFO 6876 --- [http-nio-8080-exec-8] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.IndexController.blog', args=[15, {}]}
+2020-03-04 15:51:52.600  INFO 6876 --- [http-nio-8080-exec-8] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:51:52.602  INFO 6876 --- [http-nio-8080-exec-8] com.yang.aspect.LogAspect                : result : blog
+2020-03-04 15:51:55.451  INFO 6876 --- [http-nio-8080-exec-2] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/15', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.CommentController.comments', args=[15, {}]}
+2020-03-04 15:51:55.467  INFO 6876 --- [http-nio-8080-exec-2] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:51:55.468  INFO 6876 --- [http-nio-8080-exec-2] com.yang.aspect.LogAspect                : result : blog :: commentList
+2020-03-04 15:53:11.430  INFO 6876 --- [http-nio-8080-exec-6] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: createTime: ASC], {}]}
+2020-03-04 15:53:11.488  INFO 6876 --- [http-nio-8080-exec-6] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:53:11.490  INFO 6876 --- [http-nio-8080-exec-6] com.yang.aspect.LogAspect                : result : index
+2020-03-04 15:54:38.453  INFO 6876 --- [http-nio-8080-exec-6] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/blog/15', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.IndexController.blog', args=[15, {}]}
+2020-03-04 15:54:38.569  INFO 6876 --- [http-nio-8080-exec-6] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:54:38.571  INFO 6876 --- [http-nio-8080-exec-6] com.yang.aspect.LogAspect                : result : blog
+2020-03-04 15:54:42.836  INFO 6876 --- [http-nio-8080-exec-1] com.yang.aspect.LogAspect                : request : RequestLog{url='http://localhost:8080/comments/15', ip='0:0:0:0:0:0:0:1', classMethod='com.yang.controller.CommentController.comments', args=[15, {}]}
+2020-03-04 15:54:42.868  INFO 6876 --- [http-nio-8080-exec-1] com.yang.aspect.LogAspect                : ----------doAfter-----------
+2020-03-04 15:54:42.870  INFO 6876 --- [http-nio-8080-exec-1] com.yang.aspect.LogAspect                : result : blog :: commentList
